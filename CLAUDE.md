@@ -11,9 +11,16 @@ This file provides guidance for AI assistants (Claude Code and similar tools) wo
 | Name        | Learning                                   |
 | Owner       | rgomes87                                   |
 | Remote      | `http://local_proxy@127.0.0.1:22770/git/rgomes87/Learning` |
-| Status      | Freshly initialized — no source code yet   |
+| Status      | Initialized — CLAUDE.md only, no source code yet |
 
-This is a new, empty repository. The conventions and workflows below are the starting baseline; update them as soon as a technology stack is chosen and source code is added.
+This repository contains only `CLAUDE.md` so far. The conventions and workflows below are the starting baseline; update them as soon as a technology stack is chosen and source code is added.
+
+### Active Claude Session Branches
+
+| Branch | Session | Status |
+|--------|---------|--------|
+| `claude/add-claude-documentation-NW78U` | NW78U | prior session |
+| `claude/add-claude-documentation-qOV9f` | qOV9f | current session |
 
 ---
 
@@ -27,7 +34,7 @@ All Claude Code sessions must develop on branches that follow this pattern:
 claude/<short-description>-<SESSION_ID>
 ```
 
-Example: `claude/add-claude-documentation-NW78U`
+Example: `claude/add-claude-documentation-qOV9f`
 
 Never push directly to `main` or `master` without explicit permission.
 
@@ -102,15 +109,12 @@ Before committing, verify:
 
 ## Project Structure
 
-> This section is a placeholder. Update it once source code exists.
-
 ```
 Learning/
-├── CLAUDE.md          # This file — AI assistant guide
-└── (source code TBD)
+└── CLAUDE.md          # This file — AI assistant guide
 ```
 
-When adding source code, document the structure here:
+No source code exists yet. When added, document the structure here:
 - List top-level directories and their purpose.
 - Note where tests live.
 - Note where configuration lives.
@@ -166,4 +170,4 @@ When the project grows, revisit and update:
 
 ---
 
-*Last updated: 2026-03-03 by Claude Code (session NW78U)*
+*Last updated: 2026-03-06 by Claude Code (session qOV9f)*
