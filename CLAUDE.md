@@ -10,10 +10,17 @@ This file provides guidance for AI assistants (Claude Code and similar tools) wo
 |-------------|--------------------------------------------|
 | Name        | Learning                                   |
 | Owner       | rgomes87                                   |
-| Remote      | `http://local_proxy@127.0.0.1:22770/git/rgomes87/Learning` |
-| Status      | Freshly initialized — no source code yet   |
+| Remote      | `http://local_proxy@127.0.0.1:42219/git/rgomes87/Learning` |
+| Status      | Initialized — CLAUDE.md only, no application source code yet |
 
-This is a new, empty repository. The conventions and workflows below are the starting baseline; update them as soon as a technology stack is chosen and source code is added.
+This repository contains only this guide file. The conventions and workflows below are the established baseline; update them as soon as a technology stack is chosen and source code is added.
+
+### Session History
+
+| Session ID | Branch                                      | Date       | Summary                          |
+|------------|---------------------------------------------|------------|----------------------------------|
+| NW78U      | `claude/add-claude-documentation-NW78U`     | 2026-03-03 | Created initial CLAUDE.md        |
+| h2riR      | `claude/add-claude-documentation-h2riR`     | 2026-04-04 | Updated CLAUDE.md (current)      |
 
 ---
 
@@ -28,6 +35,10 @@ claude/<short-description>-<SESSION_ID>
 ```
 
 Example: `claude/add-claude-documentation-NW78U`
+
+Active branches in this repo:
+- `claude/add-claude-documentation-NW78U` — session NW78U (2026-03-03)
+- `claude/add-claude-documentation-h2riR` — session h2riR (2026-04-04, current)
 
 Never push directly to `main` or `master` without explicit permission.
 
@@ -102,15 +113,14 @@ Before committing, verify:
 
 ## Project Structure
 
-> This section is a placeholder. Update it once source code exists.
+Current state (as of 2026-04-04):
 
 ```
 Learning/
-├── CLAUDE.md          # This file — AI assistant guide
-└── (source code TBD)
+└── CLAUDE.md          # This file — AI assistant guide
 ```
 
-When adding source code, document the structure here:
+No application source code exists yet. When it is added, document the structure here:
 - List top-level directories and their purpose.
 - Note where tests live.
 - Note where configuration lives.
@@ -166,4 +176,4 @@ When the project grows, revisit and update:
 
 ---
 
-*Last updated: 2026-03-03 by Claude Code (session NW78U)*
+*Last updated: 2026-04-04 by Claude Code (session h2riR)*
